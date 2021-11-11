@@ -204,6 +204,7 @@ body {
 .call-to-action-box {
     background-color: #3882F6;
     width: 85%;
+    max-width: 900px;
     height: 100px;
     border-radius: 10px;
     display: flex;
@@ -233,4 +234,19 @@ body {
     font-weight: 800;
     border-radius: 7px;
     margin: 7px;
+}
+
+
+/* Footer section */
+
+.footer {
+    height: 70px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #d5d6da
 }
