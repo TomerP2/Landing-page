@@ -119,3 +119,48 @@ body {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+
+/* Information section */
+
+.info-container {
+    padding-bottom: 200px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px;
+}
+
+.info-boxes-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.info-img {
+    border: 5px solid #3882F6;
+    width: 180px;
+    height: 180px;
+    border-radius: 17px;
+}
+
+.info-subtext {
+    color: #616060;
+    font-size: 18px;
+    width: 180px;
+    margin: 0;
+}
