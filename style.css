@@ -124,7 +124,7 @@ body {
 /* Information section */
 
 .info-container {
-    padding-bottom: 200px;
+    padding-bottom: 120px;
 }
 
 .info-title {
@@ -163,4 +163,30 @@ body {
     font-size: 18px;
     width: 180px;
     margin: 0;
+    margin-top: 2px;
+}
+
+
+/* Quote section */
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20%;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #253041;
+    margin: 0;
+}
+
+.quote-citation {
+    font-size: 18px;
+    margin-top: 0;
+    margin-left: auto;
 }
