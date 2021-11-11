@@ -22,6 +22,7 @@ body {
 
 .header {
     background-color: #1F2937;
+    padding-bottom: 60px;
 }
 
 .header-bar {
@@ -30,7 +31,7 @@ body {
     flex-direction: row;
     align-items: center;
     /* Other */
-    padding: 0 200px;
+    padding: 0 150px;
     height: 76px;
 }
 
@@ -59,4 +60,62 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     display: inline;
+}
+
+
+/* Header content */
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 100px 150px;
+    height: 200px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 450px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    border: none;
+    color: #E5E7EB;
+    height: 35px;
+    width: 100px;
+    font-weight: 800;
+    border-radius: 7px;
+    margin: 7px;
+}
+
+.image-box {
+    background-color: rgb(139, 138, 138);
+    height: 230px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+}
+
+.image-box .placeholder-text {
+    font-size: 18px;
+    color: #E5E7EB;
 }
