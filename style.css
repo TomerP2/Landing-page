@@ -31,7 +31,7 @@ body {
     flex-direction: row;
     align-items: center;
     /* Other */
-    padding: 0 150px;
+    padding: 0 10%;
     height: 76px;
 }
 
@@ -69,7 +69,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 35px;
     margin: 100px 150px;
     height: 200px;
 }
@@ -78,7 +78,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    max-width: 450px;
+    max-width: 400px;
 }
 
 .hero-text {
@@ -175,6 +175,13 @@ body {
     align-items: center;
     padding: 100px 20%;
     background-color: #E5E7EB;
+}
+
+.quote-box {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote {
